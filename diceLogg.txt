@@ -1,0 +1,5 @@
+ 2024-06-17 13:33:57,205 -  WARNING - Dice number set to less than 0 or 0
+ 2024-06-17 13:34:05,459 -  WARNING - Dice number set to less than 0 or 0
+ 2024-06-17 13:39:22,115 -  WARNING - Dice number set to less than 0 or 0
+ 2024-06-17 13:39:26,707 -  WARNING - Dice number set to less than 0 or 0
+ 2024-06-17 13:39:30,442 -  WARNING - 1
