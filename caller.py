@@ -1,7 +1,7 @@
-import callmepkg
+from callmepkg import callme, callme3
 
-dir()
 print("I'm caller")
-callmepkg.callme.myprinter("hi")
+callme.myprinter("hi")
+print(callme3.empty())
 
-
+    
