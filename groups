@@ -1,0 +1,19 @@
+import random
+
+start_list = ["Tuomas Kankaanpää", "Meeri Forslund", "Vera Nazeli Sellström", "Anna Forneaus", "Ian Thomas Brown", "Lara Teivainen-Hippi",
+        "Sini Vuorensyrjä", "Khaled Jrideh", "Zakariya Farah", "Pål Egil Runde",
+        "Enni Rajala", "Belal Alabd ", "Petter Saarela", "Shasenem Bekjan Nomeland", "Tiril Marie Pedersen Løken"]
+
+random_grouping = random.sample(start_list, 15)
+
+headings = ['Group 1', 'Group 2', 'Group 3']
+group1 = random_grouping[0:5]
+group2 = random_grouping[5:10]
+group3 = random_grouping[10:15]
+
+list_all = [headings] + list(zip(group1, group2, group3))
+
+max_name = len(max(start_list, key=len))
+
+for row in list_all:
+    print("{:<26}\t{:<26}\t{:<26}".format(*row))
